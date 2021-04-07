@@ -43,7 +43,8 @@ elif '.mp4' in inp:
     cv2.waitKey(0)
     cap.release()
     cv2.destroyAllWindows()
-else:
+
+elif 'cam' in inp:
     cap = cv2.VideoCapture(0)
     while True:
         ret, frame = cap.read()
