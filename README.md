@@ -2,8 +2,11 @@
 1.The code is able to detect and count the number of persons from image, video or live camera.
 
 2.Libraries Required:
+      
       pip install opencv-python
+      
       pip install numpy
+      
       pip install imutils (for anaconda users: pip install --user imutils)
 
 3.Run it in IDE
